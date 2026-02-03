@@ -1,0 +1,22 @@
+# Sync GitHub Repo
+1. django-admin startproject
+2. create repo with same project name
+3. git init
+4. git remote add origin <url>
+5. git pull origin master
+6. git add -A
+7. git commit -a -m "project repo setup"
+9. git push origin master
+
+
+# Implementation steps
+1. create -> .gitignore file
+2. create venv -> python -m venv venv
+4. activate venv -> venv\scripts\activate
+5. create requirements.txt file -> echo.>requirements.txt
+6. pip install <>
+7. pip freeze>requirements.txt
+6. create app -> python manage.py startapp api_service
+8. python manage.py makemigrations
+9. python manage.py migrate
+10. python manage.py runserver
