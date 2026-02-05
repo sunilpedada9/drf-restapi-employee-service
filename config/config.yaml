@@ -1,0 +1,2 @@
+customuser_config:
+  customuser_colmuns_list: ["user_name","email","department","country","user_type"]
